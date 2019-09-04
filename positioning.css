@@ -1,0 +1,39 @@
+#fixed{
+    background-color: #eee;
+    width: 100px;
+    height: 30px;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    /* float: left; */
+    margin: 0;
+
+}
+
+.wrapper{
+    width: 40%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+#relative{
+    height: 180px;
+    background-color: #eee;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+}
+
+#absolute{
+    height: 70px;
+    width: 210px;
+    background-color: #999;
+    position: absolute;
+    right: -30px;
+    bottom: 0px;
+    padding-top: 20px;
+}
+
+body{
+    margin-top: 0;
+}
